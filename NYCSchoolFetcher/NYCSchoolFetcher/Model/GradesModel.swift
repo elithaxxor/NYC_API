@@ -33,7 +33,7 @@ struct Grades: Codable {
     
     var DBN : String {
         print("[+] Sat DBN received")
-        return dbn
+        return DBN
     }
     
     var SchoolName : String {

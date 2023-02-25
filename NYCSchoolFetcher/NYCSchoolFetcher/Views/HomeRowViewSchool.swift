@@ -5,7 +5,6 @@
 //  Created by Adel Al-Aali on 2/22/23.
 //
 
-import SwiftUI
 
 //
 //  ModelRowView.swift
@@ -15,7 +14,7 @@ import SwiftUI
 //
 
 import SwiftUI
-
+import CoreData
 
 
 // MARK: Table Structure
@@ -23,6 +22,9 @@ struct HomeRowViewSchool: View {
     // var school : Schools
     let schoolData : Schools
     
+    
+    
+
     var body: some View {
         topRow
         bottomRow
@@ -30,9 +32,12 @@ struct HomeRowViewSchool: View {
 }
 struct HomeRowViewGrades: View {
 
-    let gradeData : Grades
+    let gradeData : Grades.Type
 
     var body: some View {
+        Color.gray
+            .edgesIgnoringSafeArea(.all)
+        
         topRow
         bottomRow
     }
@@ -107,8 +112,8 @@ extension HomeRowViewSchool {
 struct TableRows_Previews: PreviewProvider  {
     static var previews: some View {
         
-        HomeRowViewSchool(schoolData: Schools)
-        HomeRowViewGrades(gradeData: Grades)
+//        HomeRowViewSchool(schoolData: Schools.self)
+        HomeRowViewGrades(gradeData: Grades.self)
         // HomeRowView(coin: Schools)
         
     }

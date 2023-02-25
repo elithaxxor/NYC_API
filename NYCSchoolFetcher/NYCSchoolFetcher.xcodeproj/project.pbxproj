@@ -14,6 +14,9 @@
 		6509237729A6BF2500A11669 /* FormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509237629A6BF2500A11669 /* FormatterExtensions.swift */; };
 		6509237929A6DA1E00A11669 /* SchoolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509237829A6DA1E00A11669 /* SchoolViewModel.swift */; };
 		6509237B29A70B1200A11669 /* GradesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509237A29A70B1200A11669 /* GradesViewModel.swift */; };
+		6509237F29A8253800A11669 /* AssortedButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509237E29A8253800A11669 /* AssortedButtons.swift */; };
+		651B690229A9D6D7005227B6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B690129A9D6D7005227B6 /* InfoView.swift */; };
+		651B690429A9E447005227B6 /* GradeScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B690329A9E447005227B6 /* GradeScrollView.swift */; };
 		654031DF29A5B85C00190424 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654031DE29A5B85C00190424 /* FooterView.swift */; };
 		654031E129A5BEA500190424 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654031E029A5BEA500190424 /* APIManager.swift */; };
 		654031E429A5BF2800190424 /* SchoolsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654031E329A5BF2800190424 /* SchoolsModel.swift */; };
@@ -25,6 +28,10 @@
 		6556D46A29A5916E00A6C740 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6556D46929A5916E00A6C740 /* Preview Assets.xcassets */; };
 		6556D47B29A5934C00A6C740 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6556D47A29A5934C00A6C740 /* HomeView.swift */; };
 		6556D47E29A594A400A6C740 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6556D47D29A594A400A6C740 /* CircleButton.swift */; };
+		65B5919829A9766B004B8804 /* SchoolDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65B5919629A9766B004B8804 /* SchoolDB.xcdatamodeld */; };
+		65B5919B29A9771C004B8804 /* SchoolDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5919A29A9771C004B8804 /* SchoolDataController.swift */; };
+		65B591A029A9C2AC004B8804 /* GradesDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5919F29A9C2AC004B8804 /* GradesDataController.swift */; };
+		65B591A129A9C63E004B8804 /* GradesDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65B5919C29A9C271004B8804 /* GradesDB.xcdatamodeld */; };
 		65DB8D7529A5A87500103734 /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB8D7429A5A87500103734 /* SquareButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +43,9 @@
 		6509237629A6BF2500A11669 /* FormatterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterExtensions.swift; sourceTree = "<group>"; };
 		6509237829A6DA1E00A11669 /* SchoolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewModel.swift; sourceTree = "<group>"; };
 		6509237A29A70B1200A11669 /* GradesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesViewModel.swift; sourceTree = "<group>"; };
+		6509237E29A8253800A11669 /* AssortedButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssortedButtons.swift; sourceTree = "<group>"; };
+		651B690129A9D6D7005227B6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		651B690329A9E447005227B6 /* GradeScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeScrollView.swift; sourceTree = "<group>"; };
 		654031DE29A5B85C00190424 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		654031E029A5BEA500190424 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		654031E329A5BF2800190424 /* SchoolsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsModel.swift; sourceTree = "<group>"; };
@@ -49,6 +59,10 @@
 		6556D46929A5916E00A6C740 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6556D47A29A5934C00A6C740 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		6556D47D29A594A400A6C740 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		65B5919729A9766B004B8804 /* SchoolsDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchoolsDataModel.xcdatamodel; sourceTree = "<group>"; };
+		65B5919A29A9771C004B8804 /* SchoolDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDataController.swift; sourceTree = "<group>"; };
+		65B5919D29A9C271004B8804 /* GradesDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GradesDB.xcdatamodel; sourceTree = "<group>"; };
+		65B5919F29A9C2AC004B8804 /* GradesDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesDataController.swift; sourceTree = "<group>"; };
 		65DB8D7429A5A87500103734 /* SquareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +98,7 @@
 		654031E229A5BF1800190424 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				65B5919929A976FF004B8804 /* CoreData */,
 				654031E329A5BF2800190424 /* SchoolsModel.swift */,
 				6509236729A5CCCD00A11669 /* GradesModel.swift */,
 			);
@@ -105,6 +120,7 @@
 				6556D47D29A594A400A6C740 /* CircleButton.swift */,
 				65DB8D7429A5A87500103734 /* SquareButton.swift */,
 				654031EA29A5C31000190424 /* CircleButtonAnimation.swift */,
+				6509237E29A8253800A11669 /* AssortedButtons.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -112,7 +128,6 @@
 		6556D45629A5916D00A6C740 = {
 			isa = PBXGroup;
 			children = (
-				6509237A29A70B1200A11669 /* GradesViewModel.swift */,
 				6556D46129A5916D00A6C740 /* NYCSchoolFetcher */,
 				6556D46029A5916D00A6C740 /* Products */,
 			);
@@ -156,6 +171,8 @@
 				6556D47A29A5934C00A6C740 /* HomeView.swift */,
 				6556D46429A5916D00A6C740 /* ContentView.swift */,
 				6556D47C29A5949200A6C740 /* Components */,
+				651B690129A9D6D7005227B6 /* InfoView.swift */,
+				651B690329A9E447005227B6 /* GradeScrollView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +180,7 @@
 		6556D47929A591D500A6C740 /* ViewModel  */ = {
 			isa = PBXGroup;
 			children = (
+				6509237A29A70B1200A11669 /* GradesViewModel.swift */,
 				6509237829A6DA1E00A11669 /* SchoolViewModel.swift */,
 			);
 			path = "ViewModel ";
@@ -176,6 +194,17 @@
 				654031DE29A5B85C00190424 /* FooterView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		65B5919929A976FF004B8804 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				65B5919629A9766B004B8804 /* SchoolDB.xcdatamodeld */,
+				65B5919C29A9C271004B8804 /* GradesDB.xcdatamodeld */,
+				65B5919A29A9771C004B8804 /* SchoolDataController.swift */,
+				65B5919F29A9C2AC004B8804 /* GradesDataController.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65DB8D7529A5A87500103734 /* SquareButton.swift in Sources */,
+				65B5919829A9766B004B8804 /* SchoolDB.xcdatamodeld in Sources */,
 				654031E429A5BF2800190424 /* SchoolsModel.swift in Sources */,
 				6509237B29A70B1200A11669 /* GradesViewModel.swift in Sources */,
 				654031EB29A5C31000190424 /* CircleButtonAnimation.swift in Sources */,
@@ -257,12 +287,18 @@
 				6556D46529A5916D00A6C740 /* ContentView.swift in Sources */,
 				654031DF29A5B85C00190424 /* FooterView.swift in Sources */,
 				6556D46329A5916D00A6C740 /* NYCSchoolFetcherApp.swift in Sources */,
+				65B591A029A9C2AC004B8804 /* GradesDataController.swift in Sources */,
+				651B690429A9E447005227B6 /* GradeScrollView.swift in Sources */,
 				6556D47E29A594A400A6C740 /* CircleButton.swift in Sources */,
 				6509237529A6BEEA00A11669 /* ErrorExtensions.swift in Sources */,
+				651B690229A9D6D7005227B6 /* InfoView.swift in Sources */,
 				654031E729A5BF6300190424 /* BluetoothManager.swift in Sources */,
 				6509236D29A6ADEF00A11669 /* HomeRowViewSchool.swift in Sources */,
 				654031E129A5BEA500190424 /* APIManager.swift in Sources */,
+				65B5919B29A9771C004B8804 /* SchoolDataController.swift in Sources */,
 				6509237729A6BF2500A11669 /* FormatterExtensions.swift in Sources */,
+				65B591A129A9C63E004B8804 /* GradesDB.xcdatamodeld in Sources */,
+				6509237F29A8253800A11669 /* AssortedButtons.swift in Sources */,
 				6509237929A6DA1E00A11669 /* SchoolViewModel.swift in Sources */,
 				6509236829A5CCCD00A11669 /* GradesModel.swift in Sources */,
 			);
@@ -465,6 +501,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65B5919629A9766B004B8804 /* SchoolDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65B5919729A9766B004B8804 /* SchoolsDataModel.xcdatamodel */,
+			);
+			currentVersion = 65B5919729A9766B004B8804 /* SchoolsDataModel.xcdatamodel */;
+			path = SchoolDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		65B5919C29A9C271004B8804 /* GradesDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65B5919D29A9C271004B8804 /* GradesDB.xcdatamodel */,
+			);
+			currentVersion = 65B5919D29A9C271004B8804 /* GradesDB.xcdatamodel */;
+			path = GradesDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6556D45729A5916D00A6C740 /* Project object */;
 }

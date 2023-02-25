@@ -17,8 +17,10 @@ struct ContentView: View {
                 Text("NYC API Fetcher")
                 Spacer(minLength: 0)
             }
+            
+            VStack(spacing: 200){
+            HomeView()}
         }
-        HomeView()
         
     }
 }

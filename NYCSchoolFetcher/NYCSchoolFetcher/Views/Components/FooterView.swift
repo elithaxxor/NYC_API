@@ -13,7 +13,21 @@ struct FooterView: View {
     var body: some View {
         Spacer()
         HStack {
-            SquareButton(iconView: "right")
+            Button {
+
+                APIManager.shared.fetchSchoolData()
+            } label: {
+                Text("Fetch")
+                    .font(.headline)
+                    .fontWeight(.semibold)
+                    .padding(.horizontal, 20)
+                    .background(
+                        Color.blue
+                            .cornerRadius(10)
+                            .shadow(radius: 10)
+                    )
+            }
+
         }
         Spacer()
     }
