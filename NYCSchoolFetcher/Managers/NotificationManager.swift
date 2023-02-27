@@ -57,7 +57,7 @@ class NotificationManager {
 		
 			// location trigger
 		
-		let (location, region) = locationManager.shared.getCoordinates()
+		let (location, region) = LocationManagerSimple.shared.getCoordinates()
 		print("notification manager location found [LOCATION] \(location)  [REGION] \(region) ")
 		
 		
