@@ -13,6 +13,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             //.ignoresSafeArea()
+		   
             VStack {
                 Text("NYC API Fetcher")
                 Spacer(minLength: 0)

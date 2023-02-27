@@ -11,34 +11,53 @@ struct InfoView: View {
 	
 	@Environment(\.presentationMode) var presentationMode
 	
+	var notification = AnimationSampleView()
 	var body: some View {
 		
 		VStack{
 			Text("sample assignment")
 			
 			ZStack  (alignment: .topLeading) {
-				Color.purple
-					.edgesIgnoringSafeArea(.all)
+				
+				LinearGradient(colors: [.black, .blue], startPoint: .topTrailing, endPoint: .bottomTrailing)
+					.ignoresSafeArea(.all)
+				
+				
 				Button(action: {
 					print("[!] leaving info section")
+					notification.notificationView
+					
 					presentationMode.wrappedValue.dismiss()
 				}, label: {
-					Image(systemName: "xmark")
-						.foregroundColor(.black)
+					Image(systemName: "heart.fill")
+						.foregroundColor(.white)
 						.font(.largeTitle)
 						.padding(20)
 				})
+	
+			}
+			HStack(alignment: .center) {
+
+				ZStack(alignment: .topTrailing) {
+					
+					AnimatedShapes().buttonAnimate
+					
+				}
 			}
 		}
 		
-			// MARK: Creates X on top left of popover
-			// TODO: Fix bug-- UI now showing 'x'
 		
-		Text("copy left @adel alaali -- All Wrongs Reserved!!!!")
-		
+		HStack{
+		}
 	}
 	
+		// MARK: Creates X on top left of popover
+		// TODO: Fix bug-- UI now showing 'x'
+	
+	
 }
+
+
 
 struct InfoView_Previews: PreviewProvider {
 	static var previews: some View {

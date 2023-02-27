@@ -34,26 +34,31 @@ extension AnimationSampleView {
 			
 				// MARK: Builds cells
 			
-			HStack {
-				Text("Subscribe to notifications")
-					.bold()
-					.opacity(isAnimated ? 1.0 : 0.5)
-				
-				Spacer()
-				
-				
-				Image(systemName: isAnimated ? "checkmark.circle.fill" : "heart.fill")
-					.padding()
-					.foregroundColor(isAnimated ? .red : .green)
-					.font(.system(size: 24))
-				
-					.onTapGesture {
-						withAnimation(.easeInOut) {
-							isAnimated.toggle()
+			VStack(spacing: 50) {
+				HStack {
+					Text("Subscribe to notifications")
+						.bold()
+						.opacity(isAnimated ? 1.0 : 0.5)
+					
+					Spacer()
+					
+					
+					Image(systemName: isAnimated ? "checkmark.circle.fill" : "heart.fill")
+						.padding()
+						.foregroundColor(isAnimated ? .red : .green)
+						.font(.system(size: 24))
+					
+						.scaleEffect(isAnimated ? 1.25 : 1.0)
+						.onTapGesture {
+							withAnimation(.easeInOut) {
+								isAnimated.toggle()
+							}
 						}
-					}
-			}
-			.padding()
+				}
+				.padding()
 			.background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+			}
 		}
 	}
+}
+	
