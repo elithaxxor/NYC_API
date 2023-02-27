@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6509236829A5CCCD00A11669 /* GradesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509236729A5CCCD00A11669 /* GradesModel.swift */; };
+		6509236D29A6ADEF00A11669 /* HomeRowViewSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509236C29A6ADEF00A11669 /* HomeRowViewSchool.swift */; };
+		6509237229A6B65200A11669 /* graduationcap.circle.fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6509237129A6B65200A11669 /* graduationcap.circle.fill@2x.png */; };
+		6509237529A6BEEA00A11669 /* ErrorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509237429A6BEEA00A11669 /* ErrorExtensions.swift */; };
+		6509237729A6BF2500A11669 /* FormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509237629A6BF2500A11669 /* FormatterExtensions.swift */; };
+		6509237929A6DA1E00A11669 /* SchoolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509237829A6DA1E00A11669 /* SchoolViewModel.swift */; };
+		6509237B29A70B1200A11669 /* GradesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509237A29A70B1200A11669 /* GradesViewModel.swift */; };
+		6509237F29A8253800A11669 /* AssortedButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509237E29A8253800A11669 /* AssortedButtons.swift */; };
+		651B690229A9D6D7005227B6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B690129A9D6D7005227B6 /* InfoView.swift */; };
+		651B690429A9E447005227B6 /* GradeScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B690329A9E447005227B6 /* GradeScrollView.swift */; };
+		654031DF29A5B85C00190424 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654031DE29A5B85C00190424 /* FooterView.swift */; };
+		654031E129A5BEA500190424 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654031E029A5BEA500190424 /* APIManager.swift */; };
+		654031E429A5BF2800190424 /* SchoolsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654031E329A5BF2800190424 /* SchoolsModel.swift */; };
+		654031E729A5BF6300190424 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654031E629A5BF6300190424 /* BluetoothManager.swift */; };
+		654031EB29A5C31000190424 /* CircleButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654031EA29A5C31000190424 /* CircleButtonAnimation.swift */; };
+		6556D46329A5916D00A6C740 /* NYCSchoolFetcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6556D46229A5916D00A6C740 /* NYCSchoolFetcherApp.swift */; };
+		6556D46529A5916D00A6C740 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6556D46429A5916D00A6C740 /* ContentView.swift */; };
+		6556D46729A5916E00A6C740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6556D46629A5916E00A6C740 /* Assets.xcassets */; };
+		6556D46A29A5916E00A6C740 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6556D46929A5916E00A6C740 /* Preview Assets.xcassets */; };
+		6556D47B29A5934C00A6C740 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6556D47A29A5934C00A6C740 /* HomeView.swift */; };
+		6556D47E29A594A400A6C740 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6556D47D29A594A400A6C740 /* CircleButton.swift */; };
+		65B5919829A9766B004B8804 /* SchoolDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65B5919629A9766B004B8804 /* SchoolDB.xcdatamodeld */; };
+		65B5919B29A9771C004B8804 /* SchoolDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5919A29A9771C004B8804 /* SchoolDataController.swift */; };
+		65B591A029A9C2AC004B8804 /* GradesDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5919F29A9C2AC004B8804 /* GradesDataController.swift */; };
+		65B591A129A9C63E004B8804 /* GradesDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65B5919C29A9C271004B8804 /* GradesDB.xcdatamodeld */; };
+		65DB8D7529A5A87500103734 /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB8D7429A5A87500103734 /* SquareButton.swift */; };
+		685C4D9729AC1CF600430CED /* SchoolCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685C4D9629AC1CF600430CED /* SchoolCoreDataManager.swift */; };
+		685C4D9929AC394000430CED /* AnimationSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685C4D9829AC394000430CED /* AnimationSampleView.swift */; };
+		686720D829AB11A4003F6963 /* BuildModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686720D729AB11A4003F6963 /* BuildModel.swift */; };
+		686720DA29AB1219003F6963 /* FetchImageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686720D929AB1219003F6963 /* FetchImageAPI.swift */; };
+		686720DC29AB1296003F6963 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686720DB29AB1296003F6963 /* NotificationManager.swift */; };
+		686720DE29AB12E0003F6963 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686720DD29AB12E0003F6963 /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6509236729A5CCCD00A11669 /* GradesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesModel.swift; sourceTree = "<group>"; };
+		6509236C29A6ADEF00A11669 /* HomeRowViewSchool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRowViewSchool.swift; sourceTree = "<group>"; };
+		6509237129A6B65200A11669 /* graduationcap.circle.fill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "graduationcap.circle.fill@2x.png"; path = "NYCSchoolFetcher/graduationcap.circle.fill@2x.png"; sourceTree = SOURCE_ROOT; };
+		6509237429A6BEEA00A11669 /* ErrorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorExtensions.swift; sourceTree = "<group>"; };
+		6509237629A6BF2500A11669 /* FormatterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterExtensions.swift; sourceTree = "<group>"; };
+		6509237829A6DA1E00A11669 /* SchoolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewModel.swift; sourceTree = "<group>"; };
+		6509237A29A70B1200A11669 /* GradesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesViewModel.swift; sourceTree = "<group>"; };
+		6509237E29A8253800A11669 /* AssortedButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssortedButtons.swift; sourceTree = "<group>"; };
+		651B690129A9D6D7005227B6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		651B690329A9E447005227B6 /* GradeScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeScrollView.swift; sourceTree = "<group>"; };
+		654031DE29A5B85C00190424 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		654031E029A5BEA500190424 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		654031E329A5BF2800190424 /* SchoolsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsModel.swift; sourceTree = "<group>"; };
+		654031E629A5BF6300190424 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		654031E829A5C1BB00190424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654031EA29A5C31000190424 /* CircleButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimation.swift; sourceTree = "<group>"; };
+		6556D45F29A5916D00A6C740 /* NYCSchoolFetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYCSchoolFetcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6556D46229A5916D00A6C740 /* NYCSchoolFetcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolFetcherApp.swift; sourceTree = "<group>"; };
+		6556D46429A5916D00A6C740 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6556D46629A5916E00A6C740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6556D46929A5916E00A6C740 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6556D47A29A5934C00A6C740 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6556D47D29A594A400A6C740 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		65B5919729A9766B004B8804 /* SchoolsDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchoolsDataModel.xcdatamodel; sourceTree = "<group>"; };
+		65B5919A29A9771C004B8804 /* SchoolDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDataController.swift; sourceTree = "<group>"; };
+		65B5919D29A9C271004B8804 /* GradesDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GradesDB.xcdatamodel; sourceTree = "<group>"; };
+		65B5919F29A9C2AC004B8804 /* GradesDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesDataController.swift; sourceTree = "<group>"; };
+		65DB8D7429A5A87500103734 /* SquareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
+		685C4D9629AC1CF600430CED /* SchoolCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolCoreDataManager.swift; sourceTree = "<group>"; };
+		685C4D9829AC394000430CED /* AnimationSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSampleView.swift; sourceTree = "<group>"; };
+		686720D729AB11A4003F6963 /* BuildModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildModel.swift; sourceTree = "<group>"; };
+		686720D929AB1219003F6963 /* FetchImageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchImageAPI.swift; sourceTree = "<group>"; };
+		686720DB29AB1296003F6963 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		686720DD29AB12E0003F6963 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6556D45C29A5916D00A6C740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6509236929A5CF9000A11669 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6509237129A6B65200A11669 /* graduationcap.circle.fill@2x.png */,
+				6556D46629A5916E00A6C740 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6509237329A6BED900A11669 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6509237429A6BEEA00A11669 /* ErrorExtensions.swift */,
+				6509237629A6BF2500A11669 /* FormatterExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		654031E229A5BF1800190424 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65B5919929A976FF004B8804 /* CoreData */,
+				654031E329A5BF2800190424 /* SchoolsModel.swift */,
+				686720D729AB11A4003F6963 /* BuildModel.swift */,
+				6509236729A5CCCD00A11669 /* GradesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		654031E529A5BF5300190424 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				654031E629A5BF6300190424 /* BluetoothManager.swift */,
+				654031E029A5BEA500190424 /* APIManager.swift */,
+				686720D929AB1219003F6963 /* FetchImageAPI.swift */,
+				686720DB29AB1296003F6963 /* NotificationManager.swift */,
+				686720DD29AB12E0003F6963 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		654031E929A5C2FB00190424 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				6556D47D29A594A400A6C740 /* CircleButton.swift */,
+				65DB8D7429A5A87500103734 /* SquareButton.swift */,
+				654031EA29A5C31000190424 /* CircleButtonAnimation.swift */,
+				6509237E29A8253800A11669 /* AssortedButtons.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		6556D45629A5916D00A6C740 = {
+			isa = PBXGroup;
+			children = (
+				6556D46129A5916D00A6C740 /* NYCSchoolFetcher */,
+				6556D46029A5916D00A6C740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6556D46029A5916D00A6C740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6556D45F29A5916D00A6C740 /* NYCSchoolFetcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6556D46129A5916D00A6C740 /* NYCSchoolFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				6509237329A6BED900A11669 /* Extensions */,
+				654031E829A5C1BB00190424 /* Info.plist */,
+				6509236929A5CF9000A11669 /* Assets */,
+				654031E529A5BF5300190424 /* Managers */,
+				654031E229A5BF1800190424 /* Model */,
+				6556D47929A591D500A6C740 /* ViewModel  */,
+				6556D47829A591CC00A6C740 /* Views */,
+				6556D46829A5916E00A6C740 /* Preview Content */,
+			);
+			path = NYCSchoolFetcher;
+			sourceTree = "<group>";
+		};
+		6556D46829A5916E00A6C740 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6556D46929A5916E00A6C740 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6556D47829A591CC00A6C740 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6509236C29A6ADEF00A11669 /* HomeRowViewSchool.swift */,
+				6556D47A29A5934C00A6C740 /* HomeView.swift */,
+				6556D46429A5916D00A6C740 /* ContentView.swift */,
+				6556D47C29A5949200A6C740 /* Components */,
+				651B690129A9D6D7005227B6 /* InfoView.swift */,
+				651B690329A9E447005227B6 /* GradeScrollView.swift */,
+				685C4D9829AC394000430CED /* AnimationSampleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6556D47929A591D500A6C740 /* ViewModel  */ = {
+			isa = PBXGroup;
+			children = (
+				6509237A29A70B1200A11669 /* GradesViewModel.swift */,
+				6509237829A6DA1E00A11669 /* SchoolViewModel.swift */,
+			);
+			path = "ViewModel ";
+			sourceTree = "<group>";
+		};
+		6556D47C29A5949200A6C740 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				654031E929A5C2FB00190424 /* Buttons */,
+				6556D46229A5916D00A6C740 /* NYCSchoolFetcherApp.swift */,
+				654031DE29A5B85C00190424 /* FooterView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		65B5919929A976FF004B8804 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				685C4D9629AC1CF600430CED /* SchoolCoreDataManager.swift */,
+				65B5919A29A9771C004B8804 /* SchoolDataController.swift */,
+				65B5919F29A9C2AC004B8804 /* GradesDataController.swift */,
+				65B5919629A9766B004B8804 /* SchoolDB.xcdatamodeld */,
+				65B5919C29A9C271004B8804 /* GradesDB.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6556D45E29A5916D00A6C740 /* NYCSchoolFetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6556D46D29A5916E00A6C740 /* Build configuration list for PBXNativeTarget "NYCSchoolFetcher" */;
+			buildPhases = (
+				6556D45B29A5916D00A6C740 /* Sources */,
+				6556D45C29A5916D00A6C740 /* Frameworks */,
+				6556D45D29A5916D00A6C740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYCSchoolFetcher;
+			productName = NYCSchoolFetcher;
+			productReference = 6556D45F29A5916D00A6C740 /* NYCSchoolFetcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6556D45729A5916D00A6C740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6556D45E29A5916D00A6C740 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 6556D45A29A5916D00A6C740 /* Build configuration list for PBXProject "NYCSchoolFetcher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6556D45629A5916D00A6C740;
+			productRefGroup = 6556D46029A5916D00A6C740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6556D45E29A5916D00A6C740 /* NYCSchoolFetcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6556D45D29A5916D00A6C740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6556D46A29A5916E00A6C740 /* Preview Assets.xcassets in Resources */,
+				6556D46729A5916E00A6C740 /* Assets.xcassets in Resources */,
+				6509237229A6B65200A11669 /* graduationcap.circle.fill@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6556D45B29A5916D00A6C740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DB8D7529A5A87500103734 /* SquareButton.swift in Sources */,
+				65B5919829A9766B004B8804 /* SchoolDB.xcdatamodeld in Sources */,
+				654031E429A5BF2800190424 /* SchoolsModel.swift in Sources */,
+				6509237B29A70B1200A11669 /* GradesViewModel.swift in Sources */,
+				654031EB29A5C31000190424 /* CircleButtonAnimation.swift in Sources */,
+				6556D47B29A5934C00A6C740 /* HomeView.swift in Sources */,
+				685C4D9929AC394000430CED /* AnimationSampleView.swift in Sources */,
+				686720DC29AB1296003F6963 /* NotificationManager.swift in Sources */,
+				6556D46529A5916D00A6C740 /* ContentView.swift in Sources */,
+				654031DF29A5B85C00190424 /* FooterView.swift in Sources */,
+				6556D46329A5916D00A6C740 /* NYCSchoolFetcherApp.swift in Sources */,
+				65B591A029A9C2AC004B8804 /* GradesDataController.swift in Sources */,
+				651B690429A9E447005227B6 /* GradeScrollView.swift in Sources */,
+				685C4D9729AC1CF600430CED /* SchoolCoreDataManager.swift in Sources */,
+				686720DA29AB1219003F6963 /* FetchImageAPI.swift in Sources */,
+				6556D47E29A594A400A6C740 /* CircleButton.swift in Sources */,
+				686720D829AB11A4003F6963 /* BuildModel.swift in Sources */,
+				6509237529A6BEEA00A11669 /* ErrorExtensions.swift in Sources */,
+				651B690229A9D6D7005227B6 /* InfoView.swift in Sources */,
+				654031E729A5BF6300190424 /* BluetoothManager.swift in Sources */,
+				6509236D29A6ADEF00A11669 /* HomeRowViewSchool.swift in Sources */,
+				654031E129A5BEA500190424 /* APIManager.swift in Sources */,
+				65B5919B29A9771C004B8804 /* SchoolDataController.swift in Sources */,
+				6509237729A6BF2500A11669 /* FormatterExtensions.swift in Sources */,
+				65B591A129A9C63E004B8804 /* GradesDB.xcdatamodeld in Sources */,
+				6509237F29A8253800A11669 /* AssortedButtons.swift in Sources */,
+				6509237929A6DA1E00A11669 /* SchoolViewModel.swift in Sources */,
+				6509236829A5CCCD00A11669 /* GradesModel.swift in Sources */,
+				686720DE29AB12E0003F6963 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6556D46B29A5916E00A6C740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6556D46C29A5916E00A6C740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6556D46E29A5916E00A6C740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NYCSchoolFetcher/Preview Content\"";
+				DEVELOPMENT_TEAM = PCTB5RL5K6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NYCSchoolFetcher/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nobodylikesme.NYCSchoolFetcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6556D46F29A5916E00A6C740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NYCSchoolFetcher/Preview Content\"";
+				DEVELOPMENT_TEAM = PCTB5RL5K6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NYCSchoolFetcher/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nobodylikesme.NYCSchoolFetcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6556D45A29A5916D00A6C740 /* Build configuration list for PBXProject "NYCSchoolFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6556D46B29A5916E00A6C740 /* Debug */,
+				6556D46C29A5916E00A6C740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6556D46D29A5916E00A6C740 /* Build configuration list for PBXNativeTarget "NYCSchoolFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6556D46E29A5916E00A6C740 /* Debug */,
+				6556D46F29A5916E00A6C740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65B5919629A9766B004B8804 /* SchoolDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65B5919729A9766B004B8804 /* SchoolsDataModel.xcdatamodel */,
+			);
+			currentVersion = 65B5919729A9766B004B8804 /* SchoolsDataModel.xcdatamodel */;
+			path = SchoolDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		65B5919C29A9C271004B8804 /* GradesDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65B5919D29A9C271004B8804 /* GradesDB.xcdatamodel */,
+			);
+			currentVersion = 65B5919D29A9C271004B8804 /* GradesDB.xcdatamodel */;
+			path = GradesDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6556D45729A5916D00A6C740 /* Project object */;
+}
