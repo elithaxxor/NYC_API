@@ -14,5 +14,8 @@ import Combine
 struct CloudKitModel : Hashable {
 	let name : String
 	let record : CKRecord
+	let imageURL : URL?
+	let image : CKAsset
+	
 	
 }

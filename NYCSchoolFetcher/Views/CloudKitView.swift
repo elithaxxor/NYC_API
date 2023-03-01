@@ -7,8 +7,9 @@
 
 import SwiftUI
 import Combine
+import Foundation
 
-struct CloudKitCrud: View {
+struct CloudKitView: View {
 	
 	@StateObject private var vm = CloudKitViewModel()
 	
@@ -17,30 +18,47 @@ struct CloudKitCrud: View {
 			VStack {
 				header
 				textField
-				button
+				buttonn
+				
+				HStack{
 				List {
 					ForEach(vm.cloudData, id: \.self){
 						Text($0.name)
 						Text($0.record.description)
+						
+							// to display image from cloudkit url / CKAsset
+						if let url = vm.cloudData.imageURL,
+						   let data = try? Data(contentsOf: url),
+						   let image = UIImage(data: data) {
+							Image(uiImage: image)
+								.resizable()
+								.frame(width: 50, height: 50)
+						}
 					}
+					.onTapGesture {
+						vm.updateItem(item: vm.cloudData)
+					}
+					
+					
+					.onDelete(perform: vm.deleteItem)
+					.listStyle(PlainListStyle())
 				}
-				.listStyle(PlainListStyle())
+				.padding()
+				.navigationBarHidden(true)
 			}
-			.padding()
-			.navigationBarHidden(true)
 		}
-		
+		}
 		
 	}
 }
 
 struct CloudKitCrud_Previews: PreviewProvider {
 	static var previews: some View {
-		CloudKitCrud()
+		CloudKitView()
 	}
 }
 
-extension CloudKitCrud {
+extension CloudKitView {
 	private var header : some View {
 		Text("CloudKit Crud ")
 			.font(.headline)
@@ -55,7 +73,7 @@ extension CloudKitCrud {
 			.cornerRadius(10)
 	}
 	
-	private var button : some View {
+	private var buttonn : some View {
 		Button {
 			vm.addButton()
 		} label: {
